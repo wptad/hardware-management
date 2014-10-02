@@ -32,3 +32,12 @@ minicom -s
 Esc+z
 ```
 
+
+* <http://pbxbook.com/other/mac-tty.html>
+
+
+## mac drivers
+
+* PL2303  <http://www.prolific.com.tw/US/ShowProduct.aspx?p_id=229&pcid=41>
+* FTDI	<http://www.ftdichip.com/Drivers/VCP.htm>
+* CH340	<http://www.wch.cn/downloads.php?name=pro&proid=178>
