@@ -71,6 +71,16 @@ deb http://raspbian.cnssuestc.org/raspbian/ wheezy main contrib non-free rpi
 
 ```
 
+## Node.js Environment
+
+```
+apt-get remove nodered -y
+apt-get remove nodejs nodejs-legacy -y
+apt-get remove npm  -y # if you installed npm
+curl -sL https://deb.nodesource.com/setup_6.x | sudo bash -
+apt-get install nodejs -y
+```
+
 ## camera
 
 
